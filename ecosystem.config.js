@@ -6,7 +6,7 @@ module.exports = {
   deploy : {
     production : {
       user : 'root',
-      host : '192.168.1.18:3232',
+      host : '127.0.0.1:3232',
       ref  : 'origin/main',
       repo : 'git@github.com:ValentinROUXEL/pm2cluster.git',
       path : '/home/test',
