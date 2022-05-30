@@ -5,7 +5,7 @@ module.exports = {
 
   deploy : {
     production : {
-      key: "/publickey.pub",
+      key: `D:\Documents\pm2petit\pm2cluster\publickey.pub`,
       user : 'root',
       host : ['127.0.0.1'],
       ssh_options: "StrictHostKeyChecking=no",
