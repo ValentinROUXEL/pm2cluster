@@ -7,7 +7,7 @@ module.exports = {
     production : {
       key: "/publickey.pub",
       user : 'root',
-      host : ['127.0.0.1:3232'],
+      host : ['127.0.0.1'],
       ssh_options: "StrictHostKeyChecking=no",
       ref  : 'origin/main',
       repo : 'git@github.com:ValentinROUXEL/pm2cluster.git',
