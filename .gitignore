@@ -1,3 +1,4 @@
 node_modules
 privatekey
 publickey.pub
+configSSH.js
