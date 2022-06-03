@@ -11,7 +11,7 @@ module.exports = {
        "ref"  : "origin/main",
        "repo" : "git@github.com:ValentinROUXEL/pm2cluster.git",
        "path" : "/home/test",
-       "post-deploy" : "npm install; pm2 start server.js"
+       "post-deploy" : "npm install"
     }
   }
 };
