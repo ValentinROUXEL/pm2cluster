@@ -3,7 +3,7 @@ var app = express();
 
 app.get('/', function (req, res) {
   console.log(req.body)
-  res.send('YOOOO');
+  res.send('Chocapic');
 });
 
 app.listen(8972, function () {
